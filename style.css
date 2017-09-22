@@ -1,0 +1,44 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+	width:100%;
+	height:100%;
+	font-size: 1em;
+}
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	width: 80%;
+	margin: 0 auto;
+	/*width: 90%;
+	margin: 0 auto;*/
+
+}
+.myself{
+	text-align: center;
+	width: 100%;
+	height: 400px;
+}
+
+.container-item{
+	background-color: grey;
+	border-radius: 10px;
+	margin: 20px;
+	flex: 1 1 100px;
+	min-width: 100px;
+	padding: 20px;
+
+	/*background-color: #7f7f7f;
+	height: 300px;
+	width: 14%;
+	float: left;
+	margin-left: 2%;
+	padding: 50px;
+	border-radius:20px;*/
+}
+
+.container-item > ul{
+	list-style: none;
+}
